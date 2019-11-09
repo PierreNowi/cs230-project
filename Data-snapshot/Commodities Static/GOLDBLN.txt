@@ -1,0 +1,2 @@
+CSNAME;DEF;MNEM;NAME;PCUR;Type;UNITS;X
+ICE Benchmark Administration Ltd.;P;GOLDBLN;Gold Bullion LBM U$/Troy Ounce;U$;CMD;Troy Ounce;1212.38

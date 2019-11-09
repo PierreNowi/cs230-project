@@ -1,0 +1,2 @@
+CSNAME;DEF;MNEM;NAME;PCUR;Type;UNITS;X
+ICIS Pricing;P;OILWTXI;Crude Oil-WTI Near Month FOB U$/BBL;U$;CMD;Barrel;36.85

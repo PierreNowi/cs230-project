@@ -1,0 +1,2 @@
+CSNAME;DEF;MNEM;NAME;PCUR;Type;UNITS;X
+ICIS Pricing;P;OILBREN;Crude Oil-Brent Cur. Month FOB U$/BBL;U$;CMD;Barrel;38.76

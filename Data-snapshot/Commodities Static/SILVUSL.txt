@@ -1,0 +1,2 @@
+CSNAME;DEF;MNEM;NAME;PCUR;Type;UNITS;X
+Thomson Reuters;P;SILVUSL;LBMA Silver Price USD/Troy Oz;U$;CMD;Troy Ounce;15.38
