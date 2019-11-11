@@ -1,7 +1,7 @@
 # cs230-project
 # Deep Reinforcement Learning Framework for Factor Investing
 
-Data: Data for Finanical Markets uploaded with Information Coefficients Calculations. 
+## Data: Data for Finanical Markets uploaded with Information Coefficients Calculations. 
 
 ```
 Structure:
@@ -42,5 +42,8 @@ _(Currenty under development)_
 
 
 
+## Model 
 
+Model Description
+![alt text](https://github.com/PierreNowi/cs230-project/markdown-here/images/Network proposal-4.pdf "Model")
 
