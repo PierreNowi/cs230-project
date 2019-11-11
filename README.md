@@ -45,5 +45,5 @@ _(Currenty under development)_
 ## Model 
 
 Model Description
-![alt text](https://github.com/PierreNowi/cs230-project/markdown-here/images/Network proposal-4.pdf "Model")
+![alt text]("https://github.com/PierreNowi/cs230-project/markdown-here/images/Network proposal-4.pdf")
 
