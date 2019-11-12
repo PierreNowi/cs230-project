@@ -45,5 +45,5 @@ _(Currenty under development)_
 ## Model 
 
 Model Description
-![alt text](/markdown-here/images/"Network proposal-4.pdf")
+![alt text](/markdown-here/images/Network proposal-4.pdf)
 
