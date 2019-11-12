@@ -48,4 +48,4 @@ Model Description
 ![input-content](/markdown-here/images/Network-proposal-4.png)
 
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\alpha = IC_{i,z} \times \sigma_j \times z" title="\Large \alpha = IC_{i,z} \times \sigma_j \times z" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\alpha = IC_{i,z} \times \sigma_j \times z" title="IC" />
