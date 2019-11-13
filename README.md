@@ -51,3 +51,17 @@ Model Description
 
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\alpha = IC_{i,z} \times \sigma_j \times z" title="IC" />
+
+## Citation
+
+If you use this implementation in your work, please cite the following:
+
+```
+@misc{athalye2015neuralstyle,
+  author = {Anish Athalye},
+  title = {Neural Style},
+  year = {2015},
+  howpublished = {\url{https://github.com/anishathalye/neural-style}},
+  note = {commit xxxxxxx}
+}
+```
