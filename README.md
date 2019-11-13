@@ -57,11 +57,38 @@ Model Description
 If you use this implementation in your work, please cite the following:
 
 ```
-@misc{athalye2015neuralstyle,
-  author = {Anish Athalye},
-  title = {Neural Style},
-  year = {2015},
-  howpublished = {\url{https://github.com/anishathalye/neural-style}},
-  note = {commit xxxxxxx}
+@article{FamaFrench,
+  title   = "Common risk factors in the returns on stocks and bonds",
+  journal = "Journal
+of Financial Economics" ,
+    volume  = "33",
+  pages   = "3--56 ",
+  year    = "1993",
+  author  = "Fama, E. F. and K. R. French"
 }
 ```
+
+```
+@article{KahnGinold,
+  title   = "Active Portfolio Management : A quantitative approach for producing superior returns and selecting superior money managers",
+  journal = "McGraw-Hill Education" ,
+  pages   = "-- ",
+  year    = "1999,
+  author  = "R. Grinold and R. Kahn"
+}
+```
+
+```
+@article{FactorInRL,
+  title   = "Factor Selection with Deep Reinforcement Learning for Financial Forecasting",
+  journal = "University of Chicago, McKinley Capital Management",
+  pages   = "-- ",
+  year    = "Oct 2018",
+  doi     = " https://ssrn.com/abstract=3128678",
+  author  = "Ziwei Wang and Nelson Leung"
+}
+```
+
+## License
+
+Released under MIT License. See [LICENSE][license] for details.
