@@ -1,7 +1,45 @@
 # cs230-project
-# Deep Reinforcement Learning Framework for Factor Investing
+# Deep Reinforcement Learning framework for Factor Investing
 
-## Data: Data for Finanical Markets uploaded with Information Coefficients Calculations. 
+## Project description
+
+### Context 
+
+Deep Learning for finance has always been applied through a wealth of techniques and network architectures to try to 
+predict the evolution of financial instruments and specifically stock markets. A diversity of new sources such as 
+tweets have also being used to gain superior predictive power. We suggest in this project for the course 
+[CS230-Deep Learning](https://cs230.stanford.edu) to apply feature knowledge 
+used in factor investing to evaluate if a Q-learning network can better identify investments opportunities 
+in the equity markets. 
+
+### Approach
+
+Several methods such has for example the Kalman filter have been used at identifying and correcting forecasts 
+as the market reveals more information as time updates. 
+* Factor investing pioneered by [FamaFrench](#citation) has set the base of Quantitative Investment with the 3 factors: 
+size of firms, book-to-market values and excess return on the market. 
+* [KahnGinold](#citation) introduced the concept of the selection of factors with the Information Ratio (IR) that
+consists of a measure of the value added per unit of risk of each independent factors 
+(Information Coefficient (IC)) times how often that factor can be put in use in a trading setting (Breadth). 
+
+Thus, historically, factor investing has focused on identifying factors returns and their respective correlations 
+to generate superior returns. Methods have ranged from ordering factor Z-scoring, moving-average z-score as 
+presented in [QuantEquity](#citation).
+
+To investigate the methods of Deep Learning in a context of identifying factors and their Information Coefficient to 
+implement factor investing, [DRLinPort](#citation) and [FactorInRL](#citation) point in interesting directions in using 
+Deep Reinforcement Learning. \cite{DRLinPort} compares different type of Neural Networks (LSTM, CNN, RNN ) 
+to build optimal Portfolio through policy functions. [FactorInRL](#citation) is more interesting in focusing in factor 
+investment by building a genetic algorithm to select the factors that will build the portfolio.  
+[DRLinPort](#citation) notably mention the fact that the genetic algorithm is superior in that it will not be subject of 
+several local minimum compared to gradient descent methods.
+
+This project plans to investigate/build the model below that identifies IC factors though a policy function by 
+forecasting rewards with simulation of expected returns. 
+
+
+
+## Data: Data for Financial Markets uploaded with Information Coefficients Calculations. 
 
 ```
 Structure:
@@ -41,14 +79,14 @@ _(Currenty under development)_
   
 * "Data-factor" contains the time-series of factors build from __mrkt_info__ that will feed the DNN in the model.
 
-* "Output" contains the time-series of the positions taken by the $Q(s,a)$ function.
+* "Output" contains the time-series of the positions taken by the _Q(s,a)_ function.
 
 
 
 ## Model 
 
 Model Description
-![input-content](/markdown-here/images/Network-proposal-4.png)
+![input-content](http://github.com/PierreNowi/cs230-project/markdown-here/images/Network-proposal-4.png)
 
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\alpha = IC_{i,z} \times \sigma_j \times z" title="IC" />
