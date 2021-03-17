@@ -44,7 +44,7 @@ forecasting rewards with simulation of expected returns.
 
 Model Description:
 
-[input-content](http://github.com/PierreNowi/cs230-project/markdown-here/images/Network-proposal-4.png)
+![](markdown-here/images/Network-proposal-4.png)
 
 
 * Dimensionality of the features W<sub>n<sub>m</sub>,n<sub>z</sub></sub> in the _DNN_
@@ -55,6 +55,7 @@ Model Description:
   over the horizon _k_. That would be based on a _Q_-table using states of each of the stocks and the actions for each stock
 
 [KahnGinold](#citation) Information Coefficient (IC) and alpha formula: 
+
 <img src="https://latex.codecogs.com/svg.latex?\Large;\alpha = IC_{i,z} \times \sigma_j \times z" title="IC" />
 
 
