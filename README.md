@@ -56,8 +56,9 @@ Model Description:
 
 [KahnGinold](#citation) Information Coefficient (IC) and alpha formula: 
 
-<img src="https://latex.codecogs.com/svg.latex?\Large;\alpha = IC_{i,z} \times \sigma_j \times z" title="IC" />
-
+<div align="center">
+    <img src="https://latex.codecogs.com/svg.latex?\Large \alpha = IC_{i,z} \times \sigma_j \times z" title="IC" />
+</div>
 
 
 
